@@ -1,0 +1,10 @@
+package atividade;
+
+public interface Emprestavel {
+	
+	    void emprestar() throws Exception;
+	    void devolver();
+	    boolean isEmprestado();
+}
+
+
